@@ -1,0 +1,46 @@
+body{
+    background-color: red;
+    color: blue;
+    font-size: 40px;
+    font-weight: 900;
+}
+h1{
+    background-color: yellow;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.imgages img{
+    width: 300px;
+}
+
+
+/* tablet view */
+@media screen and (max-width: 768px) {
+    body{
+        background-color: brown;
+    }
+    h1{
+        background-color: aqua;
+        color: red;
+    }
+    .images{
+        flex-direction: column;
+    }
+}
+/* mon=bile view */
+@media  screen and (max-width 425px) {
+    body{
+        background-color: blueviolet;
+
+    }
+    
+}
